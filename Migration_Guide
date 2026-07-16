@@ -1,0 +1,11 @@
+# SQL Server to PostgreSQL Migration Guide
+
+## Migration Process
+
+1. Analyze SQL Server database.
+2. Convert schema using AWS SCT.
+3. Review generated PostgreSQL scripts.
+4. Convert unsupported objects manually.
+5. Test procedures and functions.
+6. Validate migrated data.
+7. Optimize PostgreSQL queries.
